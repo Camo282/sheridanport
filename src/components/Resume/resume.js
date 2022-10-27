@@ -20,7 +20,7 @@ return(
 )
 }
 
-export default Resume
+export default Resume;
 // function Resume() {
 //   return (
 //     <div className="columns">

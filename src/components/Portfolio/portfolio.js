@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../Project';
+import Project from './Project';
 
 function Portfolio() {
 	const projects = [
@@ -40,22 +40,7 @@ function Portfolio() {
 			technologies: ['HTML/CSS', 'JavaScript', 'jQuery'],
 			github: 'https://github.com/Camo282/work-day-scheduler',
 			deployed: 'https://camo282.github.io/work-day-scheduler/',
-		},
-		{
-			name: '',
-			description:
-				'',
-			image: '',
-			technologies: [
-				'JavaScript',
-				'MongoDB',
-				'IndexedDB & Service Workers',
-				'Node.js',
-				'Express',
-			],
-			github: '',
-			deployed: '',
-		},
+		}
 	];
 
 	return (
@@ -76,7 +61,7 @@ function Portfolio() {
 					<li className="padding">
 						<Project projects={projects[2]}></Project>
 					</li>
-					<li className="padding">
+					{/* <li className="padding">
 						<Project projects={projects[3]}></Project>
 					</li>
 				</ul>
@@ -86,7 +71,7 @@ function Portfolio() {
 					</li>
 					<li className="padding">
 						<Project projects={projects[5]}></Project>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</section>
